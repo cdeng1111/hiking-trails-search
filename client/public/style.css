@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+.App {
+  text-align: center;
+}
+
+.home-container {
+  background-image: url('./images/background2.png');
+  background-size: cover;
+  min-height: 100vh;
+ }
+
+ .welcome-msg {
+   font-size: 65px;
+   font-weight: 70;
+   letter-spacing: .1em;
+   font-family: 'Open Sans', sans-serif;
+   background: white;
+   padding-top: 20%;
+
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+ }
+
+ .welcome-sub-msg {
+   font-size: 25px;
+   font-weight: 70;
+   letter-spacing: .1em;
+   font-family: 'Open Sans', sans-serif;
+   background: white;
+   padding: 20px 20px;
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+ }
+.search-title {
+  font-size: 50px;
+  font-weight: 70;
+  font-family: 'Open Sans', sans-serif;
+  background: white;
+  padding: 30px 30px;
+}
+.search-area {
+  font-size: 15px;
+  font-weight: 70;
+  font-family: 'Open Sans', sans-serif;
+  background: white;
+  padding: 15px 15px;
+}
+.select-area {
+  font-size: 15px;
+  font-weight: 70;
+  font-family: 'Open Sans', sans-serif;
+  background: white;
+  width: 200px;
+  padding: 15px 15px;
+}
+
+
+ .btn{
+  color: black;
+  background-color: rgb(167, 164, 164);
+  font-size: 15px;
+  font-weight: 70;
+  width: 200px;
+  height:50px;
+  margin-left: 20px;
+}
+
+.btn:hover{
+color: black;
+background-color: #f5e2a8;
+cursor: pointer;
+}
+
+
+.box {
+  width: 1800px;
+  height: 500px;
+}
+
+.pic {
+  float: left;
+  width: 800px;
+  height: 500px;
+}
+
+.trail-desc {
+  float: left;
+  width: 1000px;
+  height: 500px;
+}
+
+h4 {
+  text-align: left;
+}
+
+p {
+  font-size: 20px;
+  font-weight: 70;
+  font-family: 'Open Sans', sans-serif;
+  background: white;
+  text-align: left;
+}
+
+h1 {
+  padding: 10px 10px;
+}
